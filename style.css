@@ -1,0 +1,281 @@
+/* ======= ScrollBar ======= */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #14191f;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #0f1113;
+}
+
+
+/* ======= Fonts ======= */
+
+@font-face {
+    font-family: "f1";
+    src: url(./Fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "f2";
+    src: url(./Fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: "f3";
+    src: url(./Fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Medium.ttf);
+}
+
+
+/* ======= Body Styles ======= */
+
+body {
+    background-color: #14191f;
+    background-image: url("./Images/BG_Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-size: 14px;
+    font-family: "f3";
+    transition: all 500ms 0ms ease-in-out;
+}
+
+
+/* ======= Nav Bar ======= */
+
+.navstyles {
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 5px 5%;
+    position: fixed;
+    width: 100%;
+    background-color: #14191f;
+    z-index: 1;
+}
+
+.b1 {
+    font-size: 12px;
+    width: 150px;
+    transition: all 500ms 0ms ease-in-out;
+}
+
+.a1 {
+    width: 175px;
+}
+
+
+/* ======= Welcome Text ======= */
+
+.da {
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    transition: all 500ms 100ms ease-in-out;
+}
+
+.da1 {
+    /* background-color: #0073ff; */
+    padding: 5px 70px;
+    transition: all 500ms 100ms ease-in-out;
+}
+
+.da2 {
+    /* background-color: #0073ff; */
+    padding: 5px 70px;
+}
+
+.mainText {
+    color: rgb(255, 255, 255);
+    font-family: "f2";
+    font-size: 25px;
+    font-weight: 200;
+    transition: all 500ms 0ms ease-in-out;
+    text-align: left;
+    line-height: 1;
+}
+
+.mainText-Span {
+    font-size: 75px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    transition: all 500ms 0ms ease-in-out;
+    font-family: "f1";
+}
+
+.mainText-description {
+    font-size: 18px;
+    transition: all 500ms 0ms ease-in-out;
+}
+
+.learnMoreButton {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    transition: all 500ms 0ms ease-in-out;
+}
+
+@media (max-width:775px) {
+    .b1 {
+        font-size: 12px;
+        width: 100px;
+    }
+    .da1 {
+        /* background-color: #0073ff; */
+        padding: 5px 50px;
+    }
+    .da2 {
+        /* background-color: #0073ff; */
+        padding: 5px 50px;
+    }
+    .mainText {
+        text-align: center;
+    }
+    .mainText-Span {
+        font-size: 60px;
+    }
+    .mainText-description {
+        display: none;
+    }
+    .learnMoreButton {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+    }
+}
+
+
+/* ======= About Paragraphs =======  */
+
+
+/*Paragraph 1*/
+
+.db {
+    width: 100%;
+}
+
+.db1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    background-color: #ffffff;
+    transition: all 100ms 100ms ease-in-out;
+}
+
+.db1-texts {
+    width: 500px;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+.db1-image {
+    width: 500px;
+    padding: 5px 20px;
+}
+
+.db1-image img {
+    width: 100%;
+}
+
+
+/*Paragraph 2*/
+
+.db2 {
+    color: #ffffff;
+    background-color: #0f1113b9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    transition: all 100ms 100ms ease-in-out;
+}
+
+.db2-texts {
+    width: 500px;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+.db2-image {
+    width: 500px;
+    padding: 5px 20px;
+}
+
+.db2-image img {
+    width: 100%;
+}
+
+
+/* ======= Card Area ======= */
+
+.dc {
+    background-color: rgba(0, 0, 0, 0.671);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 5px;
+}
+
+.cAll {
+    width: 15rem;
+    margin: 10px;
+    transition: all 100ms 100ms ease-in-out;
+}
+
+
+/* ======= Footer ======= */
+
+footer {
+    height: 15vh;
+    background-color: #14191f;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+
+/* Footer Logo */
+
+.f-Logo {
+    width: 150px;
+    transition: all 100ms 100ms ease-in-out;
+}
+
+
+/* Footer Social Media Logos */
+
+.fd2 {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+    padding: 10px;
+}
+
+.fd2-a {
+    width: 25px;
+}
+
+.icons {
+    width: 100%;
+}
