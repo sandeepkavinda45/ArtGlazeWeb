@@ -73,6 +73,12 @@ body {
     width: 175px;
 }
 
+@media (max-width:775px) {
+    .a1 {
+        width: 130px;
+    }
+}
+
 
 /* ======= Welcome Text ======= */
 
@@ -261,6 +267,13 @@ footer {
     transition: all 100ms 100ms ease-in-out;
 }
 
+@media (max-width:775px) {
+    .f-Logo {
+        width: 110px;
+        transition: all 100ms 100ms ease-in-out;
+    }
+}
+
 
 /* Footer Social Media Logos */
 
@@ -278,4 +291,14 @@ footer {
 
 .icons {
     width: 100%;
+}
+
+@media (max-width:775px) {
+    .fd2-a {
+        width: 15px;
+    }
+    .fd2 {
+        width: 200px;
+        padding: 10px;
+    }
 }
